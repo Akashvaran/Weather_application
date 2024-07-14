@@ -70,12 +70,7 @@ function App() {
             value={input}
             onChange={e => setInput(e.target.value)}
           />
-
-
         </div>
-        <button className='bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded'>
-          SignIn
-        </button>
       </nav>
       <BackgroundLayout />
       <main className='flex flex-wrap items-center'>

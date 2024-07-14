@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import { useContext, createContext, useState, useEffect } from "react";
 import axios from 'axios'
 
@@ -6,7 +7,7 @@ const StateContext = createContext()
 export const StateContextProvider = ({ children }) => {
     const [weather, setWeather] = useState({})
     const [values, setValues] = useState([])
-    const [place, setPlace] = useState('Jaipur')
+    const [place, setPlace] = useState('Pudukkottai')
     const [thisLocation, setLocation] = useState('')
 
     // fetch api
